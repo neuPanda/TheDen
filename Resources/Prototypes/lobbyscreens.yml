@@ -10,6 +10,7 @@
 # SPDX-FileCopyrightText: 2025 Shaman
 # SPDX-FileCopyrightText: 2025 juniwoofs
 # SPDX-FileCopyrightText: 2025 sheepie
+# SPDX-FileCopyrightText: 2026 Jess or neuSystem
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 #
 # SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
@@ -145,3 +146,9 @@
   background: /Textures/LobbyScreens/plushpuddle.png
   name: Plush Puddle
   artist: Wolfio
+
+- type: lobbyBackground
+  id: ADenOfFlowers
+  background: /Textures/LobbyScreens/A_Den_of_Flowers.png
+  name: A Den of Flowers
+  artist: Jess of neuSysttem
