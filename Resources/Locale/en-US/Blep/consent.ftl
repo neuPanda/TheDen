@@ -42,7 +42,13 @@ consent-example1-desc = This is just here as an example for how to add consent t
 # General Category
 
 consent-NSFWDescriptions-name = Show NSFW Descriptions
-consent-NSFWDescriptions-desc = Toggle this on to see dynamic player descriptions that may contain NSFW/ERP content.
+consent-NSFWDescriptions-desc =
+    Enables NSFW holobarrier examine tooltips and the "Detail (NSFW)" examine button for players.
+
+consent-NSFWExamines-name = Show NSFW Character Examine Texts
+consent-NSFWExamines-desc =
+    Enables the ability to see NSFW-oriented examine text on a player's examine tooltip.
+    {""}[color=orange]NSFW custom examine may contain more active "scene details" than other NSFW descriptions.[/color]
 
 consent-LastMessage-name = No Last Message Entries
 consent-LastMessage-desc = Toggle this on to never appear in the "last words" discord webhook. Local chat is the only one ever sent.

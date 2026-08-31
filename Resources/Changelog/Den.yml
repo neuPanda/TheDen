@@ -19196,3 +19196,30 @@ Entries:
   id: 1891
   time: '2026-08-13T15:17:14.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2721
+- author: unafil
+  changes:
+    - type: Add
+      message: >-
+        Mannitol is now available in loadout pill canisters, and has a moodlet
+        to indicate its effects.
+  id: 1892
+  time: '2026-08-29T10:34:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2731
+- author: GreggTheFather
+  changes:
+    - type: Remove
+      message: Removed Lighthouse fully
+  id: 1893
+  time: '2026-08-29T23:00:49.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2729
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: >-
+        NSFW custom examine text has been moved to a separate consent preference
+        toggle from NSFW details and holobarrier descriptions. Please adjust
+        your consent accordingly, with the caveat that you might get flashbanged
+        if you enable seeing other people's NSFW custom examine (tooltip) text.
+  id: 1894
+  time: '2026-08-29T23:09:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2730

@@ -124,7 +124,6 @@ namespace Content.IntegrationTests.Tests
             "Glacier", //DeltaV
             "TheHive", //DeltaV
             "Hammurabi", //DeltaV
-            "Lighthouse", //DeltaV
             "Submarine", //DeltaV
 			"Anvil", //DeltaV
             // "Gax",

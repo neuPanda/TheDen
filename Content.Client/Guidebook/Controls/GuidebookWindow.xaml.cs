@@ -1,15 +1,14 @@
-// SPDX-FileCopyrightText: 2023 Hebi <spiritbreakz@gmail.com>
-// SPDX-FileCopyrightText: 2023 Kara <lunarautomaton6@gmail.com>
-// SPDX-FileCopyrightText: 2023 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2023 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2023 Vasilis <vasilis@pikachu.systems>
-// SPDX-FileCopyrightText: 2024 Leon Friedrich <60421075+electrojr@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2024 Sk1tch <ben.peter.smith@gmail.com>
-// SPDX-FileCopyrightText: 2024 Thomas <87614336+Aeshus@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 sleepyyapril <flyingkarii@gmail.com>
+// SPDX-FileCopyrightText: 2023 Hebi
+// SPDX-FileCopyrightText: 2023 Kara
+// SPDX-FileCopyrightText: 2023 Leon Friedrich
+// SPDX-FileCopyrightText: 2023 Nemanja
+// SPDX-FileCopyrightText: 2023 Vasilis
+// SPDX-FileCopyrightText: 2024 Sk1tch
+// SPDX-FileCopyrightText: 2024 Thomas
+// SPDX-FileCopyrightText: 2025 sleepyyapril
+// SPDX-FileCopyrightText: 2026 little-meow-meow
 //
-// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+// SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 using System.Linq;
 using Content.Client.Guidebook.RichText;
@@ -52,10 +51,10 @@ public sealed partial class GuidebookWindow : FancyWindow, ILinkClickHandler
         };
     }
 
-    public void HandleClick(string link)
+    public bool HandleClick(string link) // Den: return void -> return bool
     {
         if (!_entries.TryGetValue(link, out var entry))
-            return;
+            return false; // Den: return void -> return bool
 
         if (Tree.TryGetIndexFromMetadata(entry, out var index))
         {
@@ -64,6 +63,8 @@ public sealed partial class GuidebookWindow : FancyWindow, ILinkClickHandler
         }
         else
             ShowGuide(entry);
+
+        return true; // Den: return void -> return bool
     }
 
     private void OnSelectionChanged(TreeItem? item)

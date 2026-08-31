@@ -1,5 +1,6 @@
 # SPDX-FileCopyrightText: 2025 portfiend
 # SPDX-FileCopyrightText: 2026 pocl v
+# SPDX-FileCopyrightText: 2026 unafil
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
@@ -87,6 +88,8 @@
     id: LoadoutPillCanisterIron
   - type: loadout
     id: LoadoutPillCanisterCopper
+  - type: loadout
+    id: LoadoutPillCanisterMannitol
 
 - type: characterItemGroup
   id: LoadoutPrescriptionPainkiller

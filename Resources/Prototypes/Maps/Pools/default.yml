@@ -34,7 +34,7 @@
 # SPDX-FileCopyrightText: 2026 Jakumba
 # SPDX-FileCopyrightText: 2026 Nata F Miakova
 #
-# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 - type: gameMapPool
   id: DefaultMapPool
@@ -45,7 +45,6 @@
   - Edge
   - Glacier
 #  - Hammurabi - 02/22/24
-  - Lighthouse # Guess who's back - Aug 19th 25
 #  - Saltern - commented pending rework
   - Shoukou
   - Submarine # return of the queen - September 12

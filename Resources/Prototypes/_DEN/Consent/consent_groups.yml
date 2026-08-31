@@ -9,6 +9,7 @@
   priority: 0
   members:
   - NSFWDescriptions
+  - NSFWExamines
   - LastMessage
 
 - type: consentCategory

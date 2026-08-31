@@ -1,6 +1,7 @@
 # SPDX-FileCopyrightText: 2025 Winter
 # SPDX-FileCopyrightText: 2025 pocl v
 # SPDX-FileCopyrightText: 2025 portfiend
+# SPDX-FileCopyrightText: 2026 unafil
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
@@ -359,3 +360,14 @@
     group: LoadoutPrescriptions
   items:
   - PillCanisterCopper
+
+- type: loadout
+  id: LoadoutPillCanisterMannitol # Brain damage treatment
+  category: GeneralMedical
+  description: reagent-desc-mannitol
+  cost: 1
+  requirements:
+  - !type:CharacterItemGroupRequirement
+    group: LoadoutPrescriptions
+  items:
+  - PillCanisterMannitol

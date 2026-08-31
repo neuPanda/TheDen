@@ -1,5 +1,6 @@
 // SPDX-FileCopyrightText: 2025 Mnemotechnican
 // SPDX-FileCopyrightText: 2025 sleepyyapril
+// SPDX-FileCopyrightText: 2026 portfiend
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
@@ -20,7 +21,7 @@ namespace Content.Shared._Floof.Examine;
 
 public abstract class SharedCustomExamineSystem : EntitySystem
 {
-    public static ProtoId<ConsentTogglePrototype> NsfwDescConsent = "NSFWDescriptions";
+    public static ProtoId<ConsentTogglePrototype> NsfwDescConsent = "NSFWExamines"; // DEN: NSFWDescriptions -> NSFWExamines
     public static int PublicMaxLength = 256, SubtleMaxLength = 256;
     /// <summary>Max length of any content field, INCLUDING markup.</summary>
     public static int AbsolutelyMaxLength = 1024;

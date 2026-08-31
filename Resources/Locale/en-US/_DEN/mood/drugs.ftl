@@ -1,4 +1,5 @@
 # SPDX-FileCopyrightText: 2025 portfiend
+# SPDX-FileCopyrightText: 2026 unafil
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
@@ -25,3 +26,6 @@ mood-effect-PainReliefStrong = My body hurts a lot less. I feel deep relief.
 
 mood-effect-name-PainReliefVeryStrong = pain numbness
 mood-effect-PainReliefVeryStrong = I feel detached from my body - no pain at all, just numbness.
+
+mood-effect-name-MannitolBenefit = headache relief
+mood-effect-MannitolBenefit = My head feels better, and I can think a bit easier.

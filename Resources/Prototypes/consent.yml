@@ -11,6 +11,9 @@
 - type: consentToggle
   id: NSFWDescriptions
 
+- type: consentToggle # DEN
+  id: NSFWExamines
+
 - type: consentToggle
   id: LastMessage
 
